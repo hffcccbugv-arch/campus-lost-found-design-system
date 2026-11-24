@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Lost &amp; Found | Report an item</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <div class="container">
+      <p class="mb-2"><strong>Campus Lost &amp; Found</strong></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Items</a></li>
+          <li><a href="report.html" aria-current="page">Report an item</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row mt-3">
+      <main id="main-content" class="col-12 col-md-8" tabindex="-1">
+        <h1 class="mb-3">Report an item</h1>
+        <p>This is a demo form. Nothing is sent to a service or saved. Pressing the button reloads this page, and your entries show in the address bar.</p>
+
+        <form action="report.html" method="get">
+          <fieldset>
+            <legend>Item</legend>
+            <label for="item-name">Item name</label>
+            <input id="item-name" name="item-name" type="text" required>
+            <label for="item-where">Where</label>
+            <input id="item-where" name="item-where" type="text">
+            <label for="item-date">Date</label>
+            <input id="item-date" name="item-date" type="date">
+          </fieldset>
+
+          <fieldset>
+            <legend>What happened</legend>
+            <label><input type="radio" name="kind" value="lost" checked> I lost it</label>
+            <label><input type="radio" name="kind" value="found"> I found it</label>
+          </fieldset>
+
+          <button class="btn btn--primary btn--lg mb-2" type="submit">Send demo report</button>
+          <button class="btn btn--outline" type="reset">Clear</button>
+        </form>
+      </main>
+
+      <aside class="col-12 col-md-4" aria-label="Preview">
+        <article class="card card--found card--sm">
+          <h2>What happens next</h2>
+          <p>In a real service a person would check your report. Here, nothing happens.</p>
+        </article>
+      </aside>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>Campus Lost &amp; Found. Design system demo, sample entries only.</p>
+    </div>
+  </footer>
+</body>
+</html>

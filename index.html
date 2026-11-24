@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Lost &amp; Found | Items</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <div class="container">
+      <p class="mb-2"><strong>Campus Lost &amp; Found</strong></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Items</a></li>
+          <li><a href="report.html">Report an item</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row mt-3">
+      <main id="main-content" class="col-12 col-md-8" tabindex="-1">
+        <h1 class="mb-3">Items on campus</h1>
+
+        <article class="card card--found card--lg mb-3" aria-current="true">
+          <h2>Found: blue water bottle</h2>
+          <p>Left near the library entrance. Sample entry for the design system demo.</p>
+          <button class="btn btn--primary btn--sm" type="button">Claim this item</button>
+        </article>
+
+        <article class="card card--lost mb-3">
+          <h2>Lost: black calculator</h2>
+          <p>Last seen in a lecture hall. Sample entry for the design system demo.</p>
+          <button class="btn btn--outline btn--sm" type="button">I found it</button>
+        </article>
+
+        <article class="card card--found card--sm mb-3">
+          <h2>Found: student card</h2>
+          <p>Handed in at the information desk. Sample entry.</p>
+          <button class="btn btn--primary btn--sm" type="button" disabled>Already claimed</button>
+        </article>
+      </main>
+
+      <aside class="col-12 col-md-4" aria-label="Related links">
+        <h2>Need to report something?</h2>
+        <p>Use the form to describe an item you lost or found. It is a demo form: nothing is sent to a service or saved.</p>
+        <a class="btn btn--primary btn--lg" href="report.html">Report an item</a>
+      </aside>
+    </div>
+
+    <div class="row mt-3">
+      <section class="col-12 col-md-10 offset-md-2" aria-labelledby="how-title">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2 id="how-title">How it works</h2>
+            <p>Browse the items, or report one.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <article class="card card--lost">
+              <h3>Tip</h3>
+              <p>Include where and when you saw the item.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>Campus Lost &amp; Found. Design system demo, sample entries only.</p>
+    </div>
+  </footer>
+</body>
+</html>
