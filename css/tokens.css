@@ -1,0 +1,40 @@
+:root {
+  --color-paper:      #FAF8F4;
+  --color-ink:        #1B1F24; /* 15.61:1 على paper، 14.18:1 على surface */
+  --color-muted:      #4A5560; /* 7.17:1 على paper، 6.51:1 على surface */
+  --color-surface:    #E9EEF2;
+  --color-brand:      #0B4F6C; /* 8.43:1 على paper */
+  --color-brand-text: #FFFFFF; /* 8.94:1 على brand */
+  --color-accent:     #F2B84B; /* زخرفة وحواف بس. الكلام عليه ink: 9.25:1. ممنوع يتفهم المعنى منه لوحده */
+  --color-focus:      #0B4F6C; /* 8.43:1 على paper (المطلوب 3:1 لعناصر مش نصية) */
+
+  --font-body:    system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Arabic", sans-serif;
+  --font-heading: Georgia, "Times New Roman", serif;
+  --font-size-1: 0.875rem;
+  --font-size-2: 1rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 2rem;
+  --line-height-body: 1.6;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 3rem;
+
+  --radius-1: 0.375rem;
+  --radius-2: 0.75rem;
+
+  --duration-fast: 120ms;
+  --duration-base: 240ms;
+}
+
+/* ثيم تاني: قيم توكنز تانية بس، من غير ما نلمس أي قاعدة مكوّن. نسب التباين اتحسبت: ink/paper 15.44:1، ink/surface 13.34:1، muted/paper 8.80:1، muted/surface 7.60:1، brand/paper 9.42:1، brand-text/brand 9.42:1 */
+[data-theme="night"] {
+  --color-paper:      #10161C;
+  --color-ink:        #E8EDF1;
+  --color-muted:      #A9B6C1;
+  --color-surface:    #1B242C;
+  --color-brand:      #7CC4E3;
+  --color-brand-text: #10161C;
+  --color-focus:      #7CC4E3;
+}
