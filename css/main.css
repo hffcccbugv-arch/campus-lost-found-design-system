@@ -48,7 +48,7 @@ input, select, textarea {
   border-radius: var(--radius-1);
 }
 input[type="checkbox"], input[type="radio"] { display: inline-block; width: auto; margin: 0 var(--space-1) 0 0; }
-label { display: block; margin-bottom: 0.25rem; font-weight: 600; }
+label { display: block; margin-bottom: calc(var(--space-1) / 2); font-weight: 600; }
 
 input:user-invalid, select:user-invalid, textarea:user-invalid { border-color: var(--color-brand); border-style: dashed; }
 
@@ -133,7 +133,7 @@ nav ul { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .btn--primary { --btn-bg: var(--color-brand); --btn-text: var(--color-brand-text); }
 .btn--outline { --btn-bg: transparent; --btn-text: var(--color-brand); }
 
-.btn--sm { --btn-pad-y: 0.25rem; --btn-pad-x: var(--space-1); font-size: var(--font-size-1); }
+.btn--sm { --btn-pad-y: calc(var(--space-1) / 2); --btn-pad-x: var(--space-1); font-size: var(--font-size-1); }
 .btn--lg { --btn-pad-y: var(--space-2); --btn-pad-x: var(--space-3); font-size: var(--font-size-3); }
 
 .btn:disabled { opacity: 0.5; cursor: not-allowed; }
