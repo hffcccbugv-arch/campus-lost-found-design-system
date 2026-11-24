@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>State fixture (test only, not a site page)</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <main class="container mt-3">
+    <h1 class="mb-3">State fixture</h1>
+    <p class="mb-2">Test only. Shows states that no site page uses.</p>
+    <p class="mb-2">
+      <button class="btn btn--primary" type="button" id="p-off" aria-pressed="false">Primary, not pressed</button>
+      <button class="btn btn--primary" type="button" id="p-on" aria-pressed="true">Primary, pressed</button>
+      <button class="btn btn--outline" type="button" id="o-off" aria-pressed="false">Outline, not pressed</button>
+      <button class="btn btn--outline" type="button" id="o-on" aria-pressed="true">Outline, pressed</button>
+      <button class="btn btn--primary" type="button" id="dis" disabled>Disabled</button>
+    </p>
+    <label for="req">Required field (type, delete, then leave it)</label>
+    <input id="req" name="req" type="text" required>
+  </main>
+</body>
+</html>
