@@ -6,6 +6,7 @@ A small design system for a campus lost-and-found service, and two proof pages b
 - `css/main.css`: declared layer order `@layer base, grid, components, utilities;` then the base (reboot), 12-column grid, components and four utilities. No `!important`.
 - `index.html`, `report.html`: the two proof pages.
 - `docs/P3_documentation_and_report.pdf`: base-layer table, specification sheets, governance note, tests, temptation report, reflection, requirement checklist. Source: `docs/P3_documentation.html`. Every change in the latest revision is in `docs/CHANGELOG.md`.
+- `docs/REQUIREMENTS.md`, `docs/wireframes/`: requirements with priorities (assumed user needs are marked, no user research was done) and wireframes of both pages at 320 and 1400 px. Added later with an AI assistant, drawn from the built pages. `docs/CHANGELOG_wireframes_requirements.md` lists them. The PDF above was not regenerated and does not mention them.
 - `tests/state_fixture.html`: test-only page for component states.
 
 ## Honest status
